@@ -3,18 +3,18 @@
 # CORE SQL COMMANDS
 
 DDL - Data Definition Langauge
-CREATE , ALTER , DROP, TRUNCATE
+(CREATE , ALTER , DROP, TRUNCATE)
 
 DML - Data Manipulation Language 
-INSERT, UPDATE, DELETE
+(INSERT, UPDATE, DELETE)
 
 DQL - Data Query Language
-SELECT
+(SELECT)
 
 DCL - Data Control Language
-GRANT, REVOKE
+(GRANT, REVOKE)
 
 TCL - Transaction Control Language
-COMMIT, ROLLBACK
+(COMMIT, ROLLBACK)
 
 
