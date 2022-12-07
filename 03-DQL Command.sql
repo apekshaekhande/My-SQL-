@@ -132,5 +132,4 @@ SELECT * FROM myemp WHERE Last_name LIKE "A%";
 SELECT * FROM myemp WHERE First_name LIKE "%A";
 SELECT * FROM myemp WHERE last_name LIKE "%A";
 SELECT * FROM myemp WHERE FIRST_NAME LIKE "% %";
-select * from Products where pname="%1969 % chopper%";
 
