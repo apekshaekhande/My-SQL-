@@ -1,6 +1,6 @@
 #README.md
 
-# CORE SQL COMMANDS
+#SQL README
 
 DDL - Data Definition Langauge
 (CREATE , ALTER , Rename ,Drop,TRUNCATE)
