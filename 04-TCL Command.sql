@@ -55,8 +55,8 @@ INSERT INTO Teacher  values (102,"BB","Mumbai");
 
 START TRANSACTION;
 INSERT INTO Teacher VALUES (103,"CC","Bangalore"),
-						   (104,"DD","pune"),
-						   (105,"EE","Mumbai");
+			   (104,"DD","pune"),
+			   (105,"EE","Mumbai");
                            
 SAVEPOINT value_insert;
 
