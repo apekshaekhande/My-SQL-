@@ -11,9 +11,13 @@ DDL - Data Definition Langauge
 
 DML - Data Manipulation Language 
 (INSERT, UPDATE, DELETE)
+1) Insert- Insert command is used for inserting a records into a table
+2) Update- update command is used for updating table records 
+3) Delete - delete command is used for deleting records from table
 
 DQL - Data Query Language
 (SELECT)
+1) Select- select command is used for selection of records from the table
 
 DCL - Data Control Language
 (GRANT, REVOKE)
