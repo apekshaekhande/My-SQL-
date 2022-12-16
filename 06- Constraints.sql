@@ -1,0 +1,86 @@
+# CONSTRAINTS
+# A] DOMAIN CONSTRAINTS-
+     #1) NOT NULL
+     #2) DEFAULT
+     #3) CHECK
+     #4) ENUM
+
+# A] DOMAIN CONSTRAINTS-
+CREATE DATABASE constraints;
+USE constraints;
+CREATE TABLE person(
+PERSON_ID INT NOT NULL,
+PERSON_F_NAME VARCHAR(50) NOT NULL,
+PERSON_L_NAME VARCHAR(50) NOT NULL,
+CITY_NAME VARCHAR(50) DEFAULT"-",
+PERSON_AGE INT CHECK(PERSON_AGE<60),
+PERSON_GENDER ENUM("M","F"));
+
+DESC person;
+
+INSERT INTO person VALUES(101,"Ramesh","Jain","Bangalore",55,"M");
+INSERT INTO person VALUES(102,"Suresh","kumar","Mumbai",58,"M");
+INSERT INTO person VALUES(103,"Anisha","Jain","Bangalore",50,"F");
+INSERT INTO person VALUES(104,"Ram","Gupta","Pune",40,"M");
+INSERT INTO person VALUES(105,"Jon","Arkin","Pune",57,"M");
+INSERT INTO person VALUES(106,"Apeksha","Ekhande","Mumbai",21,"F");
+
+SELECT *FROM person;
+
+# B] KEY CONSTRAINTS-
+#1)UNIQUE KEY
+#2)PRIMARY KEY
+#3)FOREIGN KEY
+
+#1)UNIQUE KEY-
+
+CREATE TABLE employee(
+EMPID INT,
+FIRSTNAME VARCHAR(100),
+LASTNAME VARCHAR(100),
+DEP_ID INT,
+UNIQUE(EMPID,DEP_ID)
+);
+
+DESC employee;
+
+INSERT INTO employee VALUES (1,"A","B",null);
+INSERT INTO employee VALUES (2,"AA","BB",102);
+INSERT INTO employee VALUES (null,"AAA","BBB",103);
+
+SELECT * FROM employee;
+
+
+#2)PRIMARY KEY- 
+
+CREATE TABLE dept                           #PARENT TABLE
+(EMPID INT,
+FIRSTNAME VARCHAR(100),
+LASTNAME VARCHAR(100),
+PRIMARY KEY(EMPID)
+);
+
+DESC dept;
+
+INSERT INTO dept VALUES (1,"X","Y");
+INSERT INTO dept VALUES (2,"XX","YY");
+INSERT INTO dept VALUES (3,"XXX","YYY");
+
+SELECT *FROM dept;
+
+
+#3)FOREIGN KEY 
+
+CREATE TABLE customer                       #CHILD TABLE
+(CUST_ID int PRIMARY KEY,
+CITY VARCHAR(100),
+ID INT,
+FOREIGN KEY (ID) REFERENCES DEPT(EMPID)
+);
+DESC customer;
+
+INSERT INTO customer VALUES (101,"Pune",1);
+INSERT INTO customer VALUES (102,"Mumbai",3);
+INSERT INTO customer VALUES (103,"Nashik",2);
+
+SELECT * FROM customer;
