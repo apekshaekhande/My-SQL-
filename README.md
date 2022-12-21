@@ -22,6 +22,9 @@ https://github.com/apekshaekhande/My-SQL-/blob/main/02-DML%20Command.sql
 3) Delete - delete command is used for deleting records from table
 
 DQL - Data Query Language
+
+https://github.com/apekshaekhande/My-SQL-/blob/main/03-DQL%20Command.sql
+
 (SELECT)
 1) Select- select command is used for selection of records from the table
 
