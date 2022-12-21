@@ -38,6 +38,9 @@ https://github.com/apekshaekhande/My-SQL-/blob/main/04-TCL%20Command.sql
 (COMMIT, ROLLBACK)
 
 ## CONSTRAINTS-
+
+https://github.com/apekshaekhande/My-SQL-/blob/main/06-%20Constraints.sql
+
 1) Not Null- not null constraints ensure that column not have any null value
 2) Check-
 3) Default
