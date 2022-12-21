@@ -2,6 +2,7 @@
 ### SQL README
 ## SQL CORE COMMANDS
 DDL - Data Definition Langauge
+https://github.com/apekshaekhande/My-SQL-/blob/main/01-DDL%20Command.sql
 (CREATE , ALTER , Rename ,Drop,TRUNCATE)
 1) Create   - Create command is used for create a table 
 2) Alter    - Alter command is used for add column,modify and delete column.
