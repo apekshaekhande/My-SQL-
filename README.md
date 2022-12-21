@@ -1,6 +1,6 @@
 #README.md
-## SQL README
-# SQL CORE COMMANDS
+### SQL README
+## SQL CORE COMMANDS
 DDL - Data Definition Langauge
 (CREATE , ALTER , Rename ,Drop,TRUNCATE)
 1) Create   - Create command is used for create a table 
@@ -25,7 +25,7 @@ DCL - Data Control Language
 TCL - Transaction Control Language
 (COMMIT, ROLLBACK)
 
-# CONSTRAINTS-
+## CONSTRAINTS-
 1) Not Null- not null constraints ensure that column not have any null value
 2) Check-
 3) Default
