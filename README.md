@@ -32,6 +32,9 @@ DCL - Data Control Language
 (GRANT, REVOKE)
 
 TCL - Transaction Control Language
+
+https://github.com/apekshaekhande/My-SQL-/blob/main/04-TCL%20Command.sql
+
 (COMMIT, ROLLBACK)
 
 ## CONSTRAINTS-
