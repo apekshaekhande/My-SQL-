@@ -25,4 +25,13 @@ DCL - Data Control Language
 TCL - Transaction Control Language
 (COMMIT, ROLLBACK)
 
+# CONSTRAINTS-
+1) Not Null- not null constraints ensure that column not have any null value
+2) Check-
+3) Default
+4) Create Index
 
+#Key Constraints-
+1) Unique key
+2) Primary Key
+3) Foreign key
