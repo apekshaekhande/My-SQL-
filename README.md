@@ -1,6 +1,6 @@
 #README.md
-# SQL README
-
+## SQL README
+# SQL CORE COMMANDS
 DDL - Data Definition Langauge
 (CREATE , ALTER , Rename ,Drop,TRUNCATE)
 1) Create   - Create command is used for create a table 
