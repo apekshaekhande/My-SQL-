@@ -13,6 +13,9 @@ https://github.com/apekshaekhande/My-SQL-/blob/main/01-DDL%20Command.sql
 5) Truncate - truncate command deletes the data inside table ,but not the table itself.
 
 DML - Data Manipulation Language 
+
+https://github.com/apekshaekhande/My-SQL-/blob/main/02-DML%20Command.sql
+
 (INSERT, UPDATE, DELETE)
 1) Insert- Insert command is used for inserting a records into a table
 2) Update- update command is used for updating table records 
