@@ -1,4 +1,3 @@
-#README.md
 ### SQL README
 ## SQL CORE COMMANDS
 DDL - Data Definition Langauge
