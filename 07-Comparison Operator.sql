@@ -16,12 +16,12 @@ CREATE TABLE Student_Details(
   Student_id INT NOT NULL,
   first_name VARCHAR(30),
   last_name VARCHAR(30),
-  Sub varchar(255),
+  Sub VARCHAR(255),
   Marks INT
 );
 
 INSERT INTO Student_Details VALUES  
-(1,'riya','patel','Math',67),
+(1,'Riya','Patel','Math',67),
 (2,'Tanu','Raje','Science',78),
 (3,'Pooja','Sahane','Math',90),
 (4,'Ruchika','Patil','History',37),
@@ -44,7 +44,7 @@ INSERT INTO Student_Details VALUES
 
 SELECT * FROM Student_details;
 
-SELECT * FROM student_details WHERE Marks =70;
+SELECT * FROM Student_details WHERE Marks =70;
 
 SELECT * FROM Student_details WHERE Marks != 70;
 
