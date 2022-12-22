@@ -29,16 +29,16 @@ PLAYER_NAME VARCHAR(255),
 SPORT_NAME VARCHAR(50),
 FOLLOWERS_IN_MILLION int
 );
-INSERT INTO Followers VALUES (1   , "Cricket"   ,  "M.S.Dhoni" , 27);
-INSERT INTO  Followers VALUES (3   , "Footboll " ,  "C.Ronaldo" , 160);
-INSERT INTO  Followers VALUES (5   , "Cricket"   ,"Virat Kohli",50);
-INSERT INTO  Followers VALUES (6   , "Badminton" ,  "PV Sindhu",3);
-INSERT INTO  Followers VALUES (14  , "Cricket", "Rohit Sharma",20);
-INSERT INTO  Followers VALUES (20   , "Tennis"   ,  "Roger Federer",18 );
-INSERT INTO  Followers VALUES (22 , "Cricket"   ,  "Jasprit Bumrah" , 9);
-INSERT INTO  Followers VALUES (11  , "Cricket", "Smriti Mandhana" ,7);
+INSERT INTO Followers VALUES  (1   , "Cricket"   ,  "M.S.Dhoni"     , 27 );
+INSERT INTO  Followers VALUES (3   , "Footboll " ,  "C.Ronaldo"     , 160);
+INSERT INTO  Followers VALUES (5   , "Cricket"   ,"Virat Kohli"      ,50 );
+INSERT INTO  Followers VALUES (6   , "Badminton" ,  "PV Sindhu"      ,3  );
+INSERT INTO  Followers VALUES (14  , "Cricket"   , "Rohit Sharma"    ,20 );
+INSERT INTO  Followers VALUES (20  , "Tennis"    ,  "Roger Federer"  ,18 );
+INSERT INTO  Followers VALUES (22  , "Cricket"   ,  "Jasprit Bumrah" , 9 );
+INSERT INTO  Followers VALUES (11  , "Cricket"   , "Smriti Mandhana" ,7  );
 
-SELECT * FROM FOLLOWERS;
+SELECT * FROM Followers;
 
 #ANY -
 
