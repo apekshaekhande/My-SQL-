@@ -44,7 +44,7 @@ https://github.com/apekshaekhande/My-SQL-/blob/main/06-%20Constraints.sql
 2) DEFAULT- set default value for column if nothing is present
 3) CHECK - check constraint ensures that column satisfy given condition
 4) ENUM - Enum allows to limit the value chosen from a list of permitted values in the column specification at the time of table creation.
-5)INDEX- retrive data fastly and easily
+5) INDEX- retrive data fastly and easily
 
 #Key Constraints-
 1) Unique key - unique key allowes only unique value in column it could accept null values
