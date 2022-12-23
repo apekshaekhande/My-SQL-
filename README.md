@@ -41,11 +41,12 @@ https://github.com/apekshaekhande/My-SQL-/blob/main/04-TCL%20Command.sql
 https://github.com/apekshaekhande/My-SQL-/blob/main/06-%20Constraints.sql
 
 1) Not Null- not null constraints ensure that column not have any null value
-2) Check-
-3) Default
-4) Create Index
+2) DEFAULT- set default value for column if nothing is present
+3) CHECK - check constraint ensures that column satisfy given condition
+4) ENUM - 
+5)INDEX- retrive data fastly and easily
 
 #Key Constraints-
-1) Unique key
-2) Primary Key
-3) Foreign key
+1) Unique key - unique key allowes only unique value in column it could accept null values
+2) Primary Key - primary key doesn't allowes null value and it only accepts unique values
+3) Foreign key - foreign key prevents actions that could distroy link between tables
