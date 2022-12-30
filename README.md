@@ -1,5 +1,5 @@
-### SQL README
-## SQL CORE COMMANDS
+# SQL README
+ ***SQL CORE COMMANDS***
 ***DDL - Data Definition Langauge***
 
 https://github.com/apekshaekhande/My-SQL-/blob/main/01-DDL%20Command.sql
