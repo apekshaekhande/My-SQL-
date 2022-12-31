@@ -53,7 +53,7 @@ SELECT Emp_no, Salary,
 (Salary * 0.05) AS "Services Tax",
 (2000) AS "Bonus",
 Salary-(Salary * 0.05)+2000 AS "Net Salary",
-round((Salary-(Salary * 0.05)21000)/4) AS "Salary Per Week",
+round((Salary-(Salary * 0.05)2000)/4) AS "Salary Per Week",
 round((Salary-(Salary * 0.05)+2000)) AS "Salary Per Week"
 FROM Employee;
 
