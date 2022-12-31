@@ -46,21 +46,21 @@ FROM Employee;
 SELECT Emp_no, Salary,
 (salary * 0.05) AS "Services Tax",
 (2000) AS "Bonus",
-Salary-(Salary * 0.05)+1000 AS "Net Salary"
+Salary-(Salary * 0.05)+2000 AS "Net Salary"
 FROM Employee;
 
 SELECT Emp_no, Salary,
 (Salary * 0.05) AS "Services Tax",
 (2000) AS "Bonus",
-Salary-(Salary * 0.05)+1000 AS "Net Salary",
-round((Salary-(Salary * 0.05)+1000)/4) AS "Salary Per Week",
-round((Salary-(Salary * 0.05)+1000)) AS "Salary Per Week"
+Salary-(Salary * 0.05)+2000 AS "Net Salary",
+round((Salary-(Salary * 0.05)21000)/4) AS "Salary Per Week",
+round((Salary-(Salary * 0.05)+2000)) AS "Salary Per Week"
 FROM Employee;
 
 SELECT Emp_no, Salary,
 (Salary * 0.05) AS "Services Tax",
 (2000) AS "Bonus",
-Salary-(Salary * 0.05)+1000 AS "Net Salary",
-round((Salary-(Salary * 0.05)+1000)/4) AS "Salary Per Week",
-round((Salary-(Salary * 0.05)+1000)%4) AS "Reminder"
+Salary-(Salary * 0.05)+2000 AS "Net Salary",
+round((Salary-(Salary * 0.05)+2000)/4) AS "Salary Per Week",
+round((Salary-(Salary * 0.05)+2000)%4) AS "Reminder"
 FROM Employee;
