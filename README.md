@@ -34,6 +34,8 @@ TCL - Transaction Control Language
 
 https://github.com/apekshaekhande/My-SQL-/blob/main/04-TCL%20Command.sql
 
+
+
 (COMMIT, ROLLBACK)
 
 ***CONSTRAINTS-***
@@ -54,5 +56,33 @@ https://github.com/apekshaekhande/My-SQL-/blob/main/06-%20Constraints.sql
 
 ***Functions***
 ***Date & Time functions***
+
+#year()
+
+#month()
+
+#Monthname()
+
+#Monthname()
+
+#Now()
+
+#current_Timestampdiff() 
+
+#current_time()
+
+#current_day()
+
+#curdate()
+
+#Extract(day,hire date)
+
+#Date_add(Date,interval 30 day)
+
+#DATE_SUB(hire_date,INTERVAL 5 DAY)
+
+#date_diff()
+
+#date_Format(now(),"%a") As date format;
 
 
