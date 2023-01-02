@@ -51,3 +51,8 @@ https://github.com/apekshaekhande/My-SQL-/blob/main/06-%20Constraints.sql
 1) Unique key - unique key allowes only unique value in column it could accept null values
 2) Primary Key - primary key doesn't allowes null value and it only accepts unique values
 3) Foreign key - foreign key prevents actions that could distroy link between tables
+
+***Functions***
+***Date & Time functions***
+
+
