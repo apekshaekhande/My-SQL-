@@ -24,54 +24,50 @@ SELECT * FROM EMPLOYEE INNER JOIN DEPARTMENT ON EMPLOYEE.DEP_ID=DEPARTMENT.DEP_I
 SELECT * FROM EMPLOYEE E JOIN DEPARTMENT D ON E.DEP_ID=D.DEP_ID;
 
 SELECT EMP_ID ,DEP_NAME FROM DEPARTMENT D JOIN EMPLOYEE E ON E.DEP_ID=D.DEP_ID;
----------------------------------------------------------------------------------------------------------------------------------------
+
 #LEFT JOIN
 SELECT *FROM EMPLOYEE E LEFT JOIN DEPARTMENT D ON E.DEP_ID= D.DEP_ID;
 
----------------------------------------------------------------------------------------------------------------------------------------
 
 #RIGHT JOIN
 SELECT * FROM EMPLOYEE E RIGHT JOIN DEPARTMENT D ON E.DEP_ID=D.DEP_ID; 
 
----------------------------------------------------------------------------------------------------------------------------------------
 
 #FULL OUTER JOIN
 SELECT *FROM EMPLOYEE LEFT JOIN DEPARTMENT  USING (DEP_ID)
 UNION
 SELECT * FROM EMPLOYEE RIGHT JOIN DEPARTMENT  USING (DEP_ID);
 
----------------------------------------------------------------------------------------------------------------------------------------
 #CROSS JOIN
 SELECT * FROM EMPLOYEE CROSS JOIN DEPARTMENT ;
 
----------------------------------------------------------------------------------------------------------------------------------------
 # 2nd EXAMPLE -
 
-create table movies (
+CREATE TABLE movies (
 id integer, 
 title varchar(50), 
 category varchar(25)
 );
 
-insert into movies values   (1,	'ASSASSIN\'S CREED: EMBERS',	'Animations'),
-							(2,	'Real Steel',	'Animations'),
-							(3,	'Alvin and the Chipmunks',	'Animations'),
-							(4,	'The Adventures of Tin Tin',	'Animations'),
-							(5,	'Safe', 	'Action'),
-							(6,	'Safe House',	'Action'),
-							(7,	'GIA',	'18+'),
-							(8,	'Deadline 2009',	'18+'),
-							(9,	'The Dirty Picture',	'18+'),
-							(10,	'Marley and me',	'Romance');
+INSERT INTO movies VALUES   (1,	'ASSASSIN\'S CREED: EMBERS','Animations'),
+							(2,'Real Steel','Animations'),
+							(3,'Alvin and the Chipmunks','Animations'),
+							(4,'The Adventures of Tin Tin','Animations'),
+							(5,'Safe','Action'),
+							(6,'Safe House','Action'),
+							(7,'GIA','18+'),
+							(8,'Deadline 2009','18+'),
+							(9,'The Dirty Picture','18+'),
+							(10,'Marley and me','Romance');
 
-create table members(
+CREATE TABLE members(
 memid integer, 
 first_name varchar(25), 
 last_name varchar(25), 
 movieid integer
 );
 
-insert into members values(1,'Alicia','Alarcon', 1),
+INSERT INTO members VALUES(1,'Alicia','Alarcon', 1),
 (2,'Don','Draper', 2),
 (3,'Lizzie','Moss', 5),
 (4,'Eldon','Chance', 8),
@@ -87,10 +83,10 @@ SELECT * FROM joins.members;
 SELECT * FROM movies INNER JOIN members ON movies.id= members.movieid; 
 
 #LEFT JOIN-
-select * from movies left join members on movies.id=members.movieid;
+SELECT * FROM movies left JOIN members ON movies.id=members.movieid;
 
 # RIGHT JOIN -
-Select * from movies right join members on movies.id =members.movieid;
+Select * from movies right join members ON movies.id =members.movieid;
 
 
 CREATE TABLE drinks (
