@@ -1,4 +1,4 @@
-#joins
+#JOINS
 CREATE DATABASE JOINS;
 USE joins;
 CREATE TABLE EMPLOYEE(
@@ -92,11 +92,11 @@ select * from movies left join members on movies.id=members.movieid;
 # RIGHT JOIN -
 Select * from movies right join members on movies.id =members.movieid;
 
+
 CREATE TABLE drinks (
   drinkname varchar(50), 
   rate float(5,2) 
 ) ;
-
 
 INSERT INTO drinks VALUES 
 							('Tea',5.00),
@@ -128,15 +128,15 @@ T_ID INT,
 T_NAME VARCHAR(100)
 );
 
-INSERT INTO class VALUES(1,"RAHUL",13,5,"Deepa");
-INSERT INTO class VALUES(2,"Kedar",12,0,"neeraj");
-INSERT INTO class VALUES(3,"Suyog",11,1,"pavan");
-INSERT INTO class VALUES(4,"Sheetal",14,3,"rakesh");
-INSERT INTO class VALUES(5,"jiyansh",10,4,"atul");
+INSERT INTO Class VALUES(1,"RAHUL",13,5,"Deepa");
+INSERT INTO Class VALUES(2,"Kedar",12,0,"neeraj");
+INSERT INTO Class VALUES(3,"Suyog",11,1,"pavan");
+INSERT INTO Class VALUES(4,"Sheetal",14,3,"rakesh");
+INSERT INTO Class VALUES(5,"jiyansh",10,4,"atul");
 
-select*from class;
+SELECT*FROM Class;
 SELECT T1.ROLL_NO,T1.STUDENT_NAME,T2.T_ID,T2.T_NAME
 FROM Class T1 
-Right join class T2
+RIGHT join Class T2
 on T1.roll_no=T2.T_ID;
 
