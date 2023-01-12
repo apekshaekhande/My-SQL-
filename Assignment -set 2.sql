@@ -1,5 +1,5 @@
 #SET-2
-use Assignment;
+USE Assignment;
 #1. select all employees in department 10 whose salary is greater than 3000. [table: employee]
 #2. The grading of students based on the marks they have obtained is done as follows:
 
