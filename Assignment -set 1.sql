@@ -360,6 +360,6 @@ UPDATE emp SET deptno=CASE
 create unique index U_index
 on emp (emp_no asc);
 ----------------------------------------------------------------------------------------------------------------------------------------
-# Q10 Create a view called emp_sal on the emp table by selecting the following fields in the order of highest salary to the lowest salary.
+# Q10 Create a view called emp_sal on the emp table by selecting the following fields in the order of highest salary to the lowest salary
 
 select emp_no, first_name, last_name, salary from emp order by salary;
