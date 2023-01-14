@@ -5,7 +5,7 @@
 https://github.com/apekshaekhande/My-SQL-/blob/main/01-DDL%20Command.sql
 
 (CREATE , ALTER , RENAME ,DROP,TRUNCATE)
-1) Create   - Create command is used for create a table 
+1) Create   - Create command is used for create a table
 2) Alter    - Alter command is used for add column,modify and delete column.
 3) Rename   - Rename command is used for Rename table
 4) Drop     - Drop command is used for drop table or database
