@@ -84,5 +84,6 @@ https://github.com/apekshaekhande/My-SQL-/blob/main/06-%20Constraints.sql
 #date_diff()
 
 #date_Format(now(),"%a") As date format:
+#
 
 
