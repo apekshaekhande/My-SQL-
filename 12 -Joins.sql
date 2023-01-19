@@ -136,3 +136,4 @@ FROM Class T1
 RIGHT join Class T2
 on T1.roll_no=T2.T_ID;
 
+
