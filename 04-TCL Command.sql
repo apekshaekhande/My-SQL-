@@ -72,4 +72,5 @@ SELECT * FROM Teacher;
 
 ROLLBACK TO value_Update;
 
+
 COMMIT;
